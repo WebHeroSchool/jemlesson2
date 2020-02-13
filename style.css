@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0 ;
+}
+
+
+/* HEADER */
+
+a {
+    color: yellow !important;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+nav {
+    text-transform: uppercase;
+    background-image: linear-gradient(red, #8b0000, red);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* FLEXBOX CONTENT */
+
+.cards_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_box_1 {
+    display: flex;
+    flex-direction: row;
+    border-block-end-style: dotted;
+}
+
+.item_box_2 {
+    padding: 30px;
+}
+
+.item_1 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-bottom-style: dotted;
+}
+
+.item_2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item_3_inner {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.item_3 {
+    margin: 10px;
+    padding: 10px;
+    border-left-style: dotted;
+}
+
+
+.item_4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rt_shirt {
+    padding-top: 20px;
+}
+
+.item_name {
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+}
+
+.footer_ls {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.page_number {
+    color: white;
+}
+
+.month {
+    color: gray;
+    padding-left: 10px;
+}
+
+.footer_rs {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.site_adress {
+    background-color: yellow;
+    justify-content: center;
+    line-height: 45px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom_logo {
+    background-color: #8b0000;
+    color: white;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+

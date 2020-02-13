@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i|Oswald:400,700&display=swap&subset=cyrillic,cyrillic-ext');
+
+
+* {
+    font-family: "Monserat";
+}
+
+h1 {
+    font-family: "Oswald";
+}
+
+.card_text_special {
+    font-family: 'Roboto', sans-serif;
+}
